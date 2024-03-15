@@ -6,6 +6,7 @@ function Exemplo_0() {
     return(
 <View style={styles.container}>
 <Text style= {styles.texto}> Minha primeira tela </Text>
+<Text style= {styles.texto2}> Minha primeira tela </Text>
 </View>
     );
 }

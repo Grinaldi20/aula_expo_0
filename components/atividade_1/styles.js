@@ -10,6 +10,11 @@ texto: {
     color: 'white',
     fontSize: 40,
 
+},
+texto2: {
+    color: 'black',
+    fontSize: 40,
+
 }
 
 
