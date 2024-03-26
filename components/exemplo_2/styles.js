@@ -26,6 +26,15 @@ const styles = StyleSheet.create ({
         color:'#c71ca2',
         fontFamily:'Vineta BT',
     },
+    viewmensagem: {
+        borderWidth:2,
+        borderColor: '#c71ca2',
+        borderRadius:20,
+        fontSize:25,
+        margin:10,
+        color:'#c71ca2',
+        fontFamily:'Vineta BT',
+    },
 });
 
 export default styles;
