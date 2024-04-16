@@ -7,9 +7,12 @@ function Exemplo2 ( ) {
     return(
         <View style={styles.container}>
             <Text style={styles.titulo}>Exemplo_2</Text>
-            <Text style={styles.viewmensagem}>Oi zé da manga</Text>
+     
           
-<Mensagem></Mensagem>
+<Mensagem nome='Glauco' sobrenome='Martins'/>
+<Mensagem nome='Miguel' idade={13}/>
+<Mensagem nome='Ester'/>
+<Mensagem nome='Pedro'/>
 
         </View>
     );
