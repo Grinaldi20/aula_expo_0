@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native-web";
 
 
 const styles = StyleSheet.create ({
-    container: {
+    container1: {
         
         backgroundColor: '#fff',
         flex: 1,
