@@ -16,9 +16,10 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#601cc7',
+    backgroundColor: 'cyan',
     alignItems: 'center',
-    justifyContent: 'center',
     padding:18,
+    fontSize:'50px',
+    fontFamily:'Copperplate Gothic Bold',
   },
 });
