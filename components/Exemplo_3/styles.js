@@ -5,8 +5,8 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#078f91',
         borderRadius: 20,
-        width:'100%',
-        alignItems:'center',
+        width: '100%',
+        alignItems: 'center',
     },
     titulo: {
         fontSize: 30,
@@ -16,9 +16,32 @@ const styles = StyleSheet.create({
     },
 
     botao: {
-     borderWidth: 3,
-     padding:10,
+        borderWidth: 3,
+        padding: 10,
+        width: '80%',
+        borderRadius: 20,
+        alignItems: 'center',
+        borderColor: 'cyan',
     },
+
+    txtBotao: {
+        fontSize: 25,
+        color: 'cyan',
+        fontFamily:'Clarendon Blk BT',
+    },
+
+    botaoPress : {
+        borderWidth: 3,
+        padding: 10,
+        width: '80%',
+        borderRadius: 20,
+        alignItems: 'center',
+        borderColor: '#02c4be',
+        backgroundColor: '#02c4be',
+    },
+
+    
+
 });
 
 export default styles;

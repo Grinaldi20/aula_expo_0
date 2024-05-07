@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Atividade_1 from './components/atividade_1';
 import Atividade_2 from './components/atividade_2';
-import Exemplo_3 from './components/exemplo_3';
+import Exemplo_3 from './components/Exemplo_3';
 
 
 export default function App() {
@@ -24,5 +24,6 @@ const styles = StyleSheet.create({
     fontSize:'50px',
     fontFamily:'Copperplate Gothic Bold',
     justifyContent: 'center',
+    borderRadius: '10px',
   },
 });
