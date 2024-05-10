@@ -40,7 +40,11 @@ const styles = StyleSheet.create({
         backgroundColor: '#02c4be',
     },
 
-    
+    txtNumero: {
+        fontSize: 30,
+        color: '#02e7eb',
+        marginVertical: 10,
+    },
 
 });
 
