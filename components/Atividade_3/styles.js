@@ -1,53 +1,55 @@
 import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#078f91',
-        borderRadius: 20,
-        width: '100%',
-        alignItems: 'center',
+    container:{
+        flex:1,
+        backgroundColor: '#1e8f8d',
+        borderRadius:20,
+        width:'100%',
+        alignItems:'center',
     },
-    titulo: {
-        fontSize: 30,
-        fontWeight: 'bold',
-        marginVertical: 20,
-        color: '#02e7eb',
+    
+    container2:{
+        display: 'flex',
+        flexDirection: 'row',
+    },
+    titulo:{
+        fontSize:30,
+        fontWeight:'bold',
+        marginVertical:20,
+        color: '#07f0ec',
+        
     },
 
-    botao: {
+    botao:{
         borderWidth: 3,
-        padding: 10,
-        width: '80%',
-        borderRadius: 20,
-        alignItems: 'center',
-        borderColor: 'cyan',
+        padding:10,
+        width:'50%',
+        borderRadius:20,
+        alignItems:'center',
+        borderColor: '#07f0ec',
         margin: 10,
     },
 
-    txtBotao: {
+    txtbotao:{
         fontSize: 25,
-        color: 'cyan',
-        fontFamily:'Clarendon Blk BT',
+        color: '#07f0ec',
     },
 
-    botaoPress : {
-        borderWidth: 3,
-        padding: 10,
-        width: '80%',
-        borderRadius: 20,
-        alignItems: 'center',
-        borderColor: '#02c4be',
-        backgroundColor: '#02c4be',
+    botaopress:{
+        backgroundColor: '#07f0ec'
     },
 
-    txtNumero: {
-        fontSize: 30,
-        color: '#02e7eb',
+    txtpress:{
+        fontSize:25,
+        color: '#07f0ec'
+    },
+
+    txtNumero:{
+        fontSize: 25,
+        color: '#07f0ec',
         marginVertical: 10,
     },
-
 });
 
 export default styles;
-
